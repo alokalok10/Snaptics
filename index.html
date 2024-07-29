@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Web Design with Carousel</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+  </head>
+  <body>
+    <header class="header1">
+      <div class="logo">
+        <img src="images\Page 2sysmix logo.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="feature.html">Features</a></li>
+          <li>
+            <a href="#">Industries</a>
+            <ul class="dropdown">
+              <li><a href="#">Industry 1</a></li>
+              <li><a href="#">Industry 2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="./images/Banner 1.jpg" class="d-block w-100" alt="First Slide">
+              <div class="carousel-caption">
+                  <h2 style="color: black; font-weight: bold; width: 130%; text-align: start;">Transform your Business
+                    Through Customized
+                    Workﬂows</h2>
+                  <p style="color: black;">Stack|N|Trace Workflow CRM.</p>
+                  <a href="#" class="btn btn-primary" style="margin-right: 72%;">‘Talk to Us’</a>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="./images/Banner 2.jpg" class="d-block w-100" alt="Second Slide">
+              <div class="carousel-caption">
+                  <h2 style="color: black; font-weight: bold; width: 130%; text-align: start;">“Improve tracking of request pipelines & Ship Faster with Stack|N|Trace CRM”</h2>
+                  <p  style="color: black; text-align: start; line-height: 35px;">Stack|N|Trace CRM’s advanced request pipeline tracking system provides complete visibility into your processes,
+                    empowering you to make informed decisions and keep the customers satisfied on their journeys...</p>
+                  <a href="#" class="btn btn-primary" style="border-radius: 10px; margin-right: 72%;">‘Talk to Us’</a>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="./images/Banner 3.jpg" class="d-block w-100" alt="Third Slide">
+              <div class="carousel-caption">
+                  <h2 style="color: black; font-weight: bold; width: 130%; text-align: start;">“Improve tracking of request pipelines & Ship Faster with Stack|N|Trace CRM”</h2>
+                  <p style="color: black; text-align: start; line-height: 35px;">Stack|N|Trace CRM’s advanced request pipeline tracking system provides complete visibility into your processes,
+                    empowering you to make informed decisions and keep the customers satisfied on their journeys...</p>
+                  <a href="#" class="btn btn-primary" style="margin-right: 72%;">Learn More</a>
+              </div>
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+    
+
+    <section class="features">
+      <h2>Features</h2>
+      <hr class="hr-line">
+      <div class="feature-item">
+        <img class="oneimg" src="images\Page 5first.png" alt="Feature Image" />
+        <div class="text1">
+          <h3 class="h3c1">Customized Workflows with Triggers</h3>
+          <p class="p3c1">
+            For scenarios where a sales request goes through various departments
+            and processing stages. StackNTrace's workflow based solution with
+            triggers and action items, such as approvals can come in handy for
+            streamlining business operations.
+          </p>
+        </div>
+      </div>
+
+      <div class="feature-item2">
+        <div class="textdiv">
+          <h3 class="h3c">
+            Identify Bottlenecks <br />
+            with Pipeline View
+          </h3>
+          <p class="p3c">
+            Spot and resolve bottlenecks pertaining to a sales request using
+            Stack|N|Trace’s intuitive visual pipeline view where one can clearly
+            see a request’s path. Bottlenecks <br />
+            related to a group of requests can also be effectively
+            troubleshooted using the pipeline view analysis for a range of
+            requests..
+          </p>
+        </div>
+        <img class="twoimg" src="images\Page 10.png" alt="Feature Image" />
+      </div>
+
+      <div class="feature-item3">
+        <img class="threeimg" src="images\Page 2.png" alt="Feature Image" />
+        <div class="text1">
+          <h3 class="h3c1">
+            End-to-end Task Management
+            with Push & E-Mail Notifications</h3>
+          <p class="p3c1">
+            Never miss a follow-up with Stack|N|Trace CRM’s push and email notifications for tasks and follow-up activities, whether it’s sales visits or preparing for packing and shipping..
+          </p>
+          <button class="butn"> <span style="font-weight: bold;">View More</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="indus">
+        <h2>Industries</h2>
+        <div class="indusimg">
+            <div class="indusimg-container">
+                <img class="indusimg1" src="images/Page 9Flavour2.jpg" alt="">
+                <p class="img-caption">Flavour</p>
+            </div>
+            <div class="indusimg-container">
+                <img class="indusimg1" src="images/Page 10Sea Food.jpg" alt="">
+                <p class="img-caption">Sea Food</p>
+            </div>
+            <div class="indusimg-container">
+                <img class="indusimg1" src="images/Page 11Others.jpg" alt="">
+                <p class="img-caption">Others</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-logo">
+              <img src="images\Page 2sysmix logo.png" alt="SYS MIX Logo">
+              <p>Gain actionable intelligence on exceptions and anomalies and respond to customers in real time.</p>
+          </div>
+          <div class="footer-links">
+              <h3>Industries</h3>
+              <ul>
+                  <li>The Flavour Industry</li>
+                  <li>The Seafood Industry</li>
+                  <li>Others Industry</li>
+              </ul>
+          </div>
+          <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li>Features</li>
+                  <li>About Us</li>
+                  <li>Careers</li>
+              </ul>
+          </div>
+          <div class="footer-contact">
+              <h3>Contact Us</h3>
+              <p>📞 9884037476</p>
+              <p>✉️ sales@sysmix.com</p>
+              <div class="footer-social">
+                  <a href=""><img src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu.png" alt="Facebook"></a>
+                  <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/018/930/415/non_2x/instagram-logo-instagram-icon-transparent-free-png.png" alt="Instagram"></a>
+                  <a href="#"><img src="https://cdn.freebiesupply.com/logos/large/2x/twitter-3-logo-png-transparent.png" alt="Twitter"></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </body>
+</html>
